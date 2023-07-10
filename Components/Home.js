@@ -1,38 +1,85 @@
 import React from "react"
-import "bootstrap/dist/css/bootstrap.min.css"
-import { Link } from "react-router-dom"
-const Navbar=()=>{
+const Home=()=>{
     return(
       <>
-        <nav class="navbar navbar-expand-md justify-content-center bg-dark navbar-dark">
-            <div className="container"> 
-                <Link className="navbar-brand" to="/">EduWorld <img src="https://e7.pngegg.com/pngimages/426/685/png-clipart-assorted-books-and-globe-illustration-student-textbook-make-science-fun-education-cartoon-books-books-cartoon-character-globe.png" width={20}></img>  </Link>
-                  <div className="collapse navbar-collapse">
-                    <ul className="navbar-nav me-auto">
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/">
-                                Home
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/Course">
-                                Courses Offered
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/About">
-                                About Us
-                            </Link>
-                        </li>                       
-                    </ul>
-                  </div>
-
+      <h1>Welcome to EduWorld</h1>
+      
+        <dic class="container border border-5">
+           <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.vecteezy.com/system/resources/previews/005/260/349/original/illustration-graphic-cartoon-character-of-business-education-free-vector.jpg"
+                    alt="loading..."
+                    height="350px"
+                    width="400"
+                    />
+                    <div class="card-body">
+                        <h1 class="card-header">Education</h1>
+                        <p class="card-text">Education is the transmission of knowledge, skills,
+                         and character traits. There are many debates about its precise definition, for example, about which aims it tries to achieve.
+                          A further issue is whether part of the meaning of education is that the change in the student is an improvement.. </p>
+                            
+                            <a href="https://en.wikipedia.org/wiki/Education#:~:text=Education%20is%20the%20transmission%20of,the%20student%20is%20an%20improvement.">Read more</a>
+                    </div>
+                </div>
             </div>
-        </nav>
-    
+            <br></br>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.vecteezy.com/system/resources/previews/005/260/349/original/illustration-graphic-cartoon-character-of-business-education-free-vector.jpg"
+                    alt="loading..."
+                    height="350px"
+                    width="400"
+                    />
+                    <div class="card-body">
+                        <h1 class="card-header">Education</h1>
+                        <p class="card-text">Education is the transmission of knowledge, skills,
+                         and character traits. There are many debates about its precise definition, for example, about which aims it tries to achieve.
+                          A further issue is whether part of the meaning of education is that the change in the student is an improvement.. </p>
+                            
+                            <a href="https://en.wikipedia.org/wiki/Education#:~:text=Education%20is%20the%20transmission%20of,the%20student%20is%20an%20improvement.">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.vecteezy.com/system/resources/previews/005/260/349/original/illustration-graphic-cartoon-character-of-business-education-free-vector.jpg"
+                    alt="loading..."
+                    height="350px"
+                    width="400"
+                    />
+                    <div class="card-body">
+                        <h1 class="card-header">Education</h1>
+                        <p class="card-text">Education is the transmission of knowledge, skills,
+                         and character traits. There are many debates about its precise definition, for example, about which aims it tries to achieve.
+                          A further issue is whether part of the meaning of education is that the change in the student is an improvement.. </p>
+                            
+                            <a href="https://en.wikipedia.org/wiki/Education#:~:text=Education%20is%20the%20transmission%20of,the%20student%20is%20an%20improvement.">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-      </>          
+                <div class="card">
+                    <div class="card-body">
+                    <img src="https://www.bravehearteducation.co.uk/wp-content/uploads/Archery-board-1024x768.jpg"
+                    alt="loading..."
+                    height="350px"
+                    width="400"
+                    />
+                        <h1 class="card-header">Our Aim</h1>
+                        <p class="card-text">The importance of aims and objectives of Education is recognized by all the Educational, professional, political,
+                         nonpolitical and religious associations, Organizations and groups at various levels in their memoranda, letters and brochures. It is said that 
+                         Education without clear cut aims is like a rudderless ship. The following comparisons emphasize this point fully well. </p>
+                            
+                            <a href="https://www.inderdo.com/aims-and-objective-of-education/">Read more</a>
+                    </div>
+                </div>
+
+    </dic>
+
+      </>
     )
 }
 
-export default Navbar;
+export default Home;
