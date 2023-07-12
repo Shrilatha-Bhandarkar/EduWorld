@@ -16,7 +16,7 @@ const Course=()=>{
                         <h1 class="card-header">CSS</h1>
                         <p class="card-text"></p>
                           <p class="card-text">CSS is the acronym of “Cascading Style Sheets”. 
-                          CSS is a computer language for laying out and structuring web pages (HTML or XML). 
+                          CSS is a computer language for laying out and structuring web pages (HTML or XML) language for laying out and. 
                            </p>
                            <button 
                           class="btn btn-danger"
